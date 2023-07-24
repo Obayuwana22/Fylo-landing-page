@@ -30,7 +30,6 @@ body {
 }
 
 header {
-  height: 100vh;
   margin-top: 2em;
   margin-bottom: 10em;
   padding: 0 2em;
@@ -111,6 +110,7 @@ ul li a {
 .productive {
   margin-bottom: 10em;
   padding: 0 2em;
+  background: url(images/bg-curve-mobile.svg);
 }
 
 .productiveHeading {
@@ -358,13 +358,14 @@ footer ul li a:hover {
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
+    margin-top: 20em;
+    background: url(images/bg-curve-desktop.svg);
   }
 
   .productive > img {
     width: 40%;
     height: 50%;
     margin-right: 5em;
-    margin-top: 20em;
   }
 
   .productiveLeft {
@@ -376,6 +377,7 @@ footer ul li a:hover {
     text-align: left;
     font-size: 4rem;
     margin-bottom: 1em;
+    margin-top: 0;
   }
 
   .productiveParagraph {
