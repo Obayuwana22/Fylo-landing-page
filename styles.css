@@ -151,6 +151,7 @@ ul li a {
   padding: 2em 1em 2em 3em;
   border-radius: 5px;
   color: var(--Very-Dark-Blue);
+  letter-spacing: 0.1em;
 }
 
 .testimonialParagraph {
@@ -207,7 +208,7 @@ ul li a {
   border: none;
   padding: 0.8em;
   color: var(--Light-Gray);
-  border: 1px solid black;
+  border: 1px solid transparent;
   border-radius: 4px;
 }
 
@@ -231,7 +232,7 @@ ul li a {
 footer {
   background: var(--Very-Dark-Blue);
   color: var(--Light-Grayish-Blue);
-  padding: 5em 0;
+  padding: 5em 0 1em;
 }
 
 .footerLogo {
@@ -278,17 +279,23 @@ footer ul li a:hover {
 .socials img {
   margin: 0 1em;
   transition: background 0.2s;
+  padding: 1em;
 }
 
 .socials img:hover {
   background: var(--Bright-Blue);
 }
 
+.socialLogo {
+  padding: 50em;
+}
+
 .attribution {
-  margin-top: 5em;
+  margin-top: 10em;
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
